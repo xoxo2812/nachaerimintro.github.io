@@ -2,6 +2,8 @@
     content: "<!--나채림-->";
 }
 
-.logo1.scrolldown {
-    content: "<!--IT'sME-->";
+@media (min-width: 992px){
+    #mainNav.navbar-shrink .logo1 {
+        content: "<!--IT'sME-->";
+    }
 }
