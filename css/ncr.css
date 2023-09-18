@@ -1,3 +1,7 @@
 .logo1:before {
     content: "<!--나채림-->";
 }
+
+.logo1.scrolldown {
+    content: "<!--IT'sME-->";
+}
