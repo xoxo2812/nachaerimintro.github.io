@@ -189,7 +189,7 @@
 }
 
 .mnu {
-  width: 826px;
+  width: 905px;
   margin: 0 auto 20px;
 }
 
@@ -203,12 +203,37 @@
   margin-left: 0;
 }
 
+.mnu > li > a {
+  display: block;
+  padding: 0 10px;
+  height: 40px;
+  line-height: 40px;
+  transition: all 0.4s;
+  color: black;
+  text-decoration-line: none !important;
+  list-style: none !important;
+}
+
+.mnu > li:after {
+  content: "|";
+  display: block;
+  margin: -25px 0 0 -10px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.mnu > li:first-child:after {
+  content: "";
+}
+
 .mnu > li.on > a {
   color: #425a73;
   font-weight: 700;
   font-size: 19px;
   background-color: rgba(158, 213, 246, 0.5);
   border-radius: 5px;
+  text-decoration-line: none !important;
+  list-style: none !important;
 }
 
 .view {
