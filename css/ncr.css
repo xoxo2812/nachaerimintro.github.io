@@ -178,3 +178,41 @@
   opacity: 0.3;
   text-align: center;
 }
+
+.pors {
+  margin-bottom: 20px;
+  padding-top: 200px;
+  font-size: 70px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.mnu {
+  width: 826px;
+  margin: 0 auto 20px;
+}
+
+.mnu > li {
+  float: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.mnu > li:first-child {
+  margin-left: 0;
+}
+
+.mnu > li.on > a {
+  color: #425a73;
+  font-weight: 700;
+  font-size: 19px;
+  background-color: rgba(158, 213, 246, 0.5);
+  border-radius: 5px;
+}
+
+.view {
+  position: relative;
+  width: 1200px;
+  height: 540px;
+}
