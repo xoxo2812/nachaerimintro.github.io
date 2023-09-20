@@ -152,3 +152,29 @@
 .icons a img {
   height: 26px;
 }
+
+#contact .cats {
+  height: 373px !important;
+}
+
+.footers {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.story {
+  text-align: center;
+}
+
+.story:after {
+  content: "/";
+  display: block;
+  padding: 20px 0;
+  font-weight: 300;
+  font-size: 30px;
+  color: #425a73;
+  opacity: 0.3;
+  text-align: center;
+}
