@@ -10848,7 +10848,7 @@ p {
 
 @media (min-width: 768px) {
   section {
-    padding: 9rem 0;
+    padding: 3rem 0;
   }
 }
 .btn-xl {
@@ -10940,8 +10940,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  color: black;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
